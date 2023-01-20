@@ -1,0 +1,19 @@
+def lev_dist(lemma, inflected):
+    # i = 0
+    # pre_cnt = 0
+    # suf_cnt = 0
+    # while not (lemma[0] == inflected[i] and lemma[1] == inflected[i+1] and lemma[2] == inflected[i+2]):
+    #     pre_cnt += 1
+    #     i += 1
+    #
+    # i = pre_cnt
+    # k = 0
+    # while k < len(lemma) and lemma[k] == inflected[i]:
+    #     i += 1
+    #     k += 1
+    # suf_cnt = len(lemma[k:len(lemma)])
+    # return [pre_cnt, suf_cnt]
+
+    # returns prefix len and starting index of suffix
+    suf_index = k
+    return [pre_cnt, suf_index]
